@@ -51,6 +51,7 @@ const Modal = ({
             <div className="max-w-xs w-72 h-96 flex items-center justify-center bg-slate-50 max-md:hidden">
               <Image
                 src={imageUrl}
+                width={80}
                 sizes="(max-width: 80px) 100vw, 50vw"
                 loading="eager"
                 decoding="async"
