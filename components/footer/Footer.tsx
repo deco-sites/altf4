@@ -57,9 +57,9 @@ export interface Props {
 
 function Footer({ sections = [] }: Props) {
   return (
-    <footer class="w-full bg-slade-800 flex flex-col divide-y divide-primary-content">
+    <footer class="w-full bg-primary flex flex-col divide-y divide-primary-content">
       <div>
-        <div class="container bg-slade-800 w-full flex flex-col divide-y divide-primary-content">
+        <div class="container w-full flex flex-col divide-y divide-primary-content">
           <FooterContainer>
             <Newsletter />
           </FooterContainer>
@@ -150,7 +150,6 @@ function Footer({ sections = [] }: Props) {
                   />
                 </a>
               </li>
-
               <li>
                 <a
                   href="http://www.deco.cx/discord"
